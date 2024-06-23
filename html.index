@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang='eng'>
+  <head>
+    <meta charset='UTF-8'>
+    <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+      <h1 id='title'>Weird Survey</h1>
+      <p id='description'>Just random questions</p>
+      <p>SORRY</p>
+      <form id='survey-form'>
+        <fieldset>
+       <label for='name' id='name-label'>
+         Come up with a name for your platypus friend
+         <input id='name'required placeholder='Megatron' ></input>
+       </label>
+        <label for='email' id='email-label'>
+          Enter email someone you hate
+          <input id='email' type='email'required placeholder='test@test.com'></input>
+          </label>
+        <label for='number' id='number-label'>
+          How many fingers am I holding up
+          <input id='number'type='number' required min='1' max='20' placeholder='7.5'></input>
+          </label>
+          <label for='dropdown'>Best creature ever created
+          <select id='dropdown'>
+            <option value="">Platypus</option>
+            <option value="1">Humans(wrong)</option>
+            <option value="2">Cats(wrong)</option>
+            <option value="3">Snakes(wrong)</option>
+            <option value="4">Turtles(maybe)</option>
+          </select>
+          </label>
+          </fieldset>
+          <fieldset>
+            <label for='Autobot'>
+          <input id='Autobot' class="inline "name='transformers' type='radio' value='a'checked >Autobot</input>
+          </label>
+         <label for='Decepticon'>
+           <input id='Decepticon' class="inline" name='transformers' type='radio' value='d'>Decepticon</input>
+           </label>
+          </fieldset>
+          <fieldset>
+            <label for='Checkbox'>
+          <input id='Checkbox' type='checkbox' class='inline' value='check'>Checkbox</input>
+          </label>
+          <label id='xobkcehC'>
+          <input for='xobkcehC' type='checkbox' class='inline' value='kcehc'>xobkcehC</input>
+          </label>
+          </fieldset>
+          <fieldset>
+            <label for='mandatory'>Translate War and Peace in to mandarin:
+          <textarea id='mandatory' rows="5" cols="30" placeholder='鸭嘴兽是最好的'></textarea>
+          </label>
+          </fieldset>
+          <input id='submit' type='submit' value='Submit'>
+        </form>
+      </body>
